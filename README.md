@@ -24,3 +24,5 @@ https://docs.docker.com/get-started/04_sharing_app/
 Add gunicorn into the requirements.txt, then create a new empty repo and push files to it. <br/>
 Set the repo as remote, and then use DigitalOcean to access the repo and then build and deploy. <br/>
 https://docs.digitalocean.com/tutorials/app-deploy-flask-app/
+
+Remote repo: https://github.com/Leo-rq-yu/weather-forecast.git
