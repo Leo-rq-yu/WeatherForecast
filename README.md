@@ -13,16 +13,14 @@ run Python file to test
 $`FLASK_APP=app flask run` <br />
 Edit requirements.txt to add more dependencies.
 
-### Deployment:
-Used fly.io to deploy this Flask app. config settings in the fly.toml file. <br />
-To launch the app to the server: 
-$`fly launch` <br />
-To check the app's status:
-$`fly status` <br />
-To see the web app page:
-$`fly open \<args>` <br />
-To update the app:
-$`fly deploy` <br />
+### Deployment(to Hub):
+First, create a repo in Docker Hub <br/>
+Then in the local terminal, run: `docker login -u YOUR-USER-NAME` to login <br/>
+Next, tag the local image to rename: `docker tag local-name YOUR-USER-NAME/new-name` <br/>
+Finally, push: `docker push YOUR-USER-NAME/new-name` <br/>
 
-To see the full tutorial:
-https://fly.io/docs/hands-on/
+https://docs.docker.com/get-started/04_sharing_app/
+### Deployment (host web app):
+Add gunicorn into the requirements.txt, then create a new empty repo and push files to it. <br/>
+Set the repo as remote, and then use DigitalOcean to access the repo and then build and deploy. <br/>
+https://docs.digitalocean.com/tutorials/app-deploy-flask-app/
