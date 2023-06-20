@@ -1,5 +1,16 @@
 # WeatherForecast
-• Used Flask to create an interactive web page for weather forecast service.\
-• Used HTTP request to get real-time weather data from National Weather Service’s web API.\
-• Reorganized weather data in to JSON data and post by HTTP request.\
-• Provided synchronized weather information on the web page.
+
+### Initialization command: 
+Build image in local
+`docker image build -t flask_docker .`
+Run the image
+`docker run -p 5000:5000 -d flask_docker`
+Check the Dockerfile to start the app.
+
+Use Docker Desktop to overview and manage all containers and images. 
+
+### Local test:
+run python file to test
+`python app.py`
+
+Edit requirements.txt to add more dependencies.
