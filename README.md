@@ -26,3 +26,5 @@ Set the repo as remote, and then use DigitalOcean to access the repo and then bu
 https://docs.digitalocean.com/tutorials/app-deploy-flask-app/
 
 Remote repo: https://github.com/Leo-rq-yu/weather-forecast.git
+
+Website: https://stingray-app-i8a35.ondigitalocean.app/
