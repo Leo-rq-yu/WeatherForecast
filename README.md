@@ -21,6 +21,8 @@ To check the app's status:
 `fly status` <br />
 To see the web app page:
 `fly open \<args>` <br />
+To update the app:
+`fly deploy` <br />
 
 To see the full tutorial:
 https://fly.io/docs/hands-on/
