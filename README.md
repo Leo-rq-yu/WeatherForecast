@@ -27,4 +27,4 @@ https://docs.digitalocean.com/tutorials/app-deploy-flask-app/
 
 Remote repo: https://github.com/Leo-rq-yu/weather-forecast.git
 
-Website: [https://stingray-app-i8a35.ondigitalocean.app/](https://stingray-app-i8a35.ondigitalocean.app/weather-forecast2)https://stingray-app-i8a35.ondigitalocean.app/weather-forecast2
+Website: https://stingray-app-i8a35.ondigitalocean.app/weather-forecast2
